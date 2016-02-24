@@ -38,7 +38,7 @@ public class CategoriesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_categories, container, false);
 
-        /** Set up the recycler view */
+        /** Set up the recycler view pls */
         mRecyclerView = (RecyclerView) root.findViewById(R.id.categoriesRecycler);
         mRecyclerView.setHasFixedSize(true);
 
